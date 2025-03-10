@@ -1,5 +1,4 @@
 #include "Span.hpp"
-#include <limits>
 
 Span::Span(unsigned int n) : _n(n)
 {
