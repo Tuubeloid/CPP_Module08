@@ -2,10 +2,10 @@ C = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 DEBUG_FLAGS = -g -O0
 
-NAME = span
+NAME = Span
 
-INCLUDES = span.hpp
-SRCS = main.cpp span.cpp
+INCLUDES = Span.hpp
+SRCS = main.cpp Span.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
